@@ -6,7 +6,7 @@ import android.os.Bundle;
 
 import com.idat.farmacias.databinding.ActivityBienvenidaBinding;
 
-public class Bienvenida extends AppCompatActivity {
+public class BienvenidaActivity extends AppCompatActivity {
 
 
 

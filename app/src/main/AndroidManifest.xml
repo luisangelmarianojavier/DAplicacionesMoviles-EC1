@@ -11,8 +11,8 @@
         android:theme="@style/Theme.Farmacias">
 
         <activity
-            android:name=".ListadoEnfermeros"
-            android:label="@string/title_activity_listado_enfermeros"></activity>
+            android:name=".ListadoEnfermerosActivity"
+            android:label="@string/title_activity_listado_enfermeros" />
         <activity android:name=".SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -20,9 +20,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Bienvenida"></activity>
-        <activity android:name=".Login" /></activity>
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".BienvenidaActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>
