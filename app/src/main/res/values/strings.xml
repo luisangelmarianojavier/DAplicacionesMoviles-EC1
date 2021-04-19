@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Farmacias</string>
+
+    <string name="txtusuario">Ingrese Su Usuario</string>
+    <string name="btningreso">Ingresar</string>
+    <string name="lblbienvenido">Bienvenido : </string>
 </resources>

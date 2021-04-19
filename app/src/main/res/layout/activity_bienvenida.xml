@@ -4,18 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".Bienvenida">
 
-    <Button
-        android:id="@+id/btnmariano"
-        android:layout_width="194dp"
-        android:layout_height="114dp"
-        android:layout_marginTop="76dp"
-        android:onClick="formulario"
-        android:text="IR A FORMULARIO DE MARIANO"
-        android:textSize="18sp"
+    <TextView
+        android:id="@+id/lblbienvenida"
+        android:layout_width="331dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="44dp"
+        android:text="@string/lblbienvenido"
+        android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.621"
+        app:layout_constraintHorizontal_bias="0.312"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
