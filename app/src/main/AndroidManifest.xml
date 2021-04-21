@@ -9,20 +9,31 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:theme="@style/Theme.Farmacias">
 
-            <!--android:name=".ListadoEnfermeros"
-            android:label="@string/title_activity_listado_enfermeros">-->
         <activity
-            android:name=".ListadoEnfermerosActivity"
-            android:label="@string/title_activity_listado_enfermeros" />
-        <activity android:name=".SplashActivity">
+            android:name=".activities.ListadoMedicamentosActivity"
+            android:label="@string/title_activity_listado_medicamentos"
+            android:parentActivityName=".activities.MainActivity"/>
+        <activity
+            android:name=".activities.ListadoDevsActivity"
+            android:label="@string/listado_devs_title"
+            android:parentActivityName=".activities.MainActivity"/>
+        <activity android:name=".activities.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".BienvenidaActivity" />
-        <activity android:name=".LoginActivity" />
-        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".activities.BienvenidaActivity"
+            android:label="Bienvenido"
+            android:parentActivityName=".activities.LoginActivity"/>
+        <activity
+            android:name=".activities.LoginActivity"
+            android:label="Login"
+            android:parentActivityName=".activities.MainActivity"/>
+        <activity
+            android:name=".activities.MainActivity"
+            android:label="Menú principal"/>
     </application>
 </manifest>

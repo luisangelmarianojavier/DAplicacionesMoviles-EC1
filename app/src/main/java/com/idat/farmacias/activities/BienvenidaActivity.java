@@ -1,4 +1,4 @@
-package com.idat.farmacias;
+package com.idat.farmacias.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 

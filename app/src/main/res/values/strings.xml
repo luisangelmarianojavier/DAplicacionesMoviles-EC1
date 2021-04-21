@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name">Farmacias</string>
-    <string name="title_activity_listado_enfermeros">ListadoEnfermeros</string>
     <string name="txtusuario">Ingrese Su Usuario</string>
     <string name="btningreso">Ingresar</string>
     <string name="lblbienvenido">Bienvenido : </string>
@@ -30,5 +29,26 @@
         <item>Para aliviar cualquier dolor</item>
         <item>Para las vias respiratorias</item>
     </string-array>
-    <string name="hello_world">Hello Square World!</string>
+    <string name="main_a_text2">Listado de medicamentos</string>
+    <string name="main_a_text1">Login y bienvenida</string>
+    <string name="main_a_text3">Desarrolladores</string>
+    <string name="enfermero_nombre">nombres</string>
+    <string name="enfermero_apellidos">apellidos</string>
+    <string name="listado_devs_title">Desarrolladores</string>
+
+    <string-array name="apellidos">
+        <item>Ramos Rumin</item>
+        <item>Apaza Chirhuana</item>
+        <item>Paz Vilchez</item>
+        <item>Moquillaza Cuya</item>
+        <item>Mariano Javier</item>
+    </string-array>
+
+    <string-array name="nombres">
+        <item>Luis Manuel Eugenio</item>
+        <item>Máximo Junior</item>
+        <item>Vicente Abel</item>
+        <item>Estefani Liset</item>
+        <item>Luis Angel</item>
+    </string-array>
 </resources>

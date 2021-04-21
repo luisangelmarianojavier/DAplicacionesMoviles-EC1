@@ -1,4 +1,4 @@
-package com.idat.farmacias;
+package com.idat.farmacias.adapters;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -10,12 +10,14 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
+import com.idat.farmacias.R;
+
+public class ListadoMedicamentosAdapter extends RecyclerView.Adapter<ListadoMedicamentosAdapter.MyViewHolder> {
     String data1[], data2[];
     int images[];
     Context context;
 
-    public MyAdapter(Context ct, String s1[], String s2[], int img[]){
+    public ListadoMedicamentosAdapter(Context ct, String s1[], String s2[], int img[]){
         context = ct;
         data1=s1;
         data2=s2;
@@ -35,7 +37,6 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
         holder.myText1.setText(data1[position]);
         holder.myText2.setText(data2[position]);
         holder.myImage.setImageResource(images[position]);
-
     }
 
     @Override

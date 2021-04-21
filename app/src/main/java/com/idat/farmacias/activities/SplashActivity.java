@@ -1,4 +1,4 @@
-package com.idat.farmacias;
+package com.idat.farmacias.activities;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -6,6 +6,7 @@ import android.os.Bundle;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.idat.farmacias.R;
 import com.idat.farmacias.util.Helpers;
 
 public class SplashActivity extends AppCompatActivity {
@@ -15,10 +16,10 @@ public class SplashActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
         getSupportActionBar().hide();
-        new Helpers().setTimeout(this::loadMainActivity, 2000);
+        new Helpers().setTimeout(this::goToMainMenu, 2000);
     }
 
-    private void loadMainActivity() {
+    private void goToMainMenu() {
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
         finish();
