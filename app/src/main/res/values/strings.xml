@@ -35,6 +35,9 @@
     <string name="enfermero_nombre">nombres</string>
     <string name="enfermero_apellidos">apellidos</string>
     <string name="listado_devs_title">Desarrolladores</string>
+    <string name="medicamento_price">Precio:</string>
+    <string name="medicamento_stock">Stock:</string>
+    <string name="filler">abc</string>
 
     <string-array name="apellidos">
         <item>Ramos Rumin</item>

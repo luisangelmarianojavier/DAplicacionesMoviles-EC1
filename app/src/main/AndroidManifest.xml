@@ -35,5 +35,9 @@
         <activity
             android:name=".activities.MainActivity"
             android:label="Menú principal"/>
+        <activity
+            android:name=".activities.DetalleMedicamentoActivity"
+            android:label="Detalle de medicamento"
+            android:parentActivityName=".activities.ListadoMedicamentosActivity"/>
     </application>
 </manifest>

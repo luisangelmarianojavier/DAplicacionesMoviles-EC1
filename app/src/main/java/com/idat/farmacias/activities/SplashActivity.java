@@ -16,7 +16,7 @@ public class SplashActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
         getSupportActionBar().hide();
-        new Helpers().setTimeout(this::goToMainMenu, 2000);
+        Helpers.setTimeout(this::goToMainMenu, 2000);
     }
 
     private void goToMainMenu() {

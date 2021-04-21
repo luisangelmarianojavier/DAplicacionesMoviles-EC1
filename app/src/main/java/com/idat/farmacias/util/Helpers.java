@@ -1,5 +1,8 @@
 package com.idat.farmacias.util;
 
+import javax.inject.Singleton;
+
+@Singleton
 public class Helpers {
 
     /**
@@ -7,7 +10,7 @@ public class Helpers {
      * @param delay Tiempo en milisegundos de retraso para
      * la ejecución de la funcion
      **/
-    public void setTimeout(Runnable function, int delay) {
+    public static void setTimeout(Runnable function, int delay) {
         new Thread(() -> {
             try {
                 Thread.sleep(delay);
