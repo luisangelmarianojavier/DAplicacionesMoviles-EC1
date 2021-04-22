@@ -8,15 +8,15 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:theme="@style/Theme.Farmacias">
-
+        <activity android:name=".activities.ListadoDuenosActivity"></activity>
         <activity
             android:name=".activities.ListadoMedicamentosActivity"
             android:label="@string/title_activity_listado_medicamentos"
-            android:parentActivityName=".activities.MainActivity"/>
+            android:parentActivityName=".activities.MainActivity" />
         <activity
             android:name=".activities.ListadoDevsActivity"
             android:label="@string/listado_devs_title"
-            android:parentActivityName=".activities.MainActivity"/>
+            android:parentActivityName=".activities.MainActivity" />
         <activity android:name=".activities.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -27,17 +27,18 @@
         <activity
             android:name=".activities.BienvenidaActivity"
             android:label="Bienvenido"
-            android:parentActivityName=".activities.LoginActivity"/>
+            android:parentActivityName=".activities.LoginActivity" />
         <activity
             android:name=".activities.LoginActivity"
             android:label="Login"
-            android:parentActivityName=".activities.MainActivity"/>
+            android:parentActivityName=".activities.MainActivity" />
         <activity
             android:name=".activities.MainActivity"
-            android:label="Menú principal"/>
+            android:label="Menú principal" />
         <activity
             android:name=".activities.DetalleMedicamentoActivity"
             android:label="Detalle de medicamento"
-            android:parentActivityName=".activities.ListadoMedicamentosActivity"/>
+            android:parentActivityName=".activities.ListadoMedicamentosActivity" />
     </application>
+
 </manifest>

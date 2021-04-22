@@ -54,4 +54,11 @@
         <item>Estefani Liset</item>
         <item>Luis Angel</item>
     </string-array>
+
+    <string-array name="duenos">
+        <item>Martha Rivaz</item>
+        <item>Vilma de la Cruz</item>
+        <item>Alvaro Esperanza</item>
+        <item>Juan Ramirez</item>
+    </string-array>
 </resources>
