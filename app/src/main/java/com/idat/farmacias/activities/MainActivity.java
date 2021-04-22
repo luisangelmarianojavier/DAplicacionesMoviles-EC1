@@ -35,6 +35,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         if (v.getId() == mainBinding.btnmariano.getId()) { goToActivity(LoginActivity.class); return; }
         if (v.getId() == mainBinding.btnestefani.getId()) { goToActivity(ListadoMedicamentosActivity.class); return; }
         if (v.getId() == mainBinding.btnluis.getId()) { goToActivity(ListadoDevsActivity.class); return; }
+        if (v.getId() == mainBinding.btnQuienesSomos.getId()) { goToActivity(AcerdadeActivity.class); return; }
         Toast.makeText(this, "No existe esa opción",Toast.LENGTH_SHORT).show();
     }
 }

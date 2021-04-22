@@ -20,6 +20,19 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
+        android:id="@+id/btnQuienesSomos"
+        android:layout_width="wrap_content"
+        android:layout_height="80sp"
+        android:layout_marginTop="616dp"
+        android:onClick="onClick"
+        android:text="@string/valQuienesSomos"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.178"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
         android:id="@+id/btnestefani"
         android:layout_width="194dp"
         android:layout_height="80sp"
