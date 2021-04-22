@@ -41,6 +41,10 @@
     <string name="valQuienesSOmos">Quienes Somos</string>
     <string name="valDescripcionQuienesSomos">Somos una farmacia dinámica, profesional, humana y vanguardista que lleva años apostando por un nuevo concepto de Farmacia más cercana y profesional, que trabaja día a día por y para los que confían en nosotros como un Centro Asesor de Salud.</string>
     <string name="valQuienesSomos">Quienes Somos</string>
+    <string name="valDuenos">Duenos</string>
+    <string name="valContactarDueno" >Contactar al Dueño</string>
+    <string name="btnVisitarWeb" >Visitar Web</string>
+    <string name="valEnviarCorreo">Enviar Correo</string>
 
     <string-array name="apellidos">
         <item>Ramos Rumin</item>

@@ -23,12 +23,51 @@
         android:id="@+id/btnQuienesSomos"
         android:layout_width="wrap_content"
         android:layout_height="80sp"
-        android:layout_marginTop="616dp"
+        android:layout_marginTop="516dp"
         android:onClick="onClick"
         android:text="@string/valQuienesSomos"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.178"
+        app:layout_constraintHorizontal_bias="0.886"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnEnviarCorreo"
+        android:layout_width="wrap_content"
+        android:layout_height="80sp"
+        android:layout_marginTop="616dp"
+        android:onClick="onClick"
+        android:text="@string/valEnviarCorreo"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.14"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnContactarDueno"
+        android:layout_width="wrap_content"
+        android:layout_height="80sp"
+        android:layout_marginTop="408dp"
+        android:onClick="onClick"
+        android:text="@string/valContactarDueno"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.193"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnVisitarWeb"
+        android:layout_width="wrap_content"
+        android:layout_height="80sp"
+        android:layout_marginTop="296dp"
+        android:onClick="onClick"
+        android:text="@string/btnVisitarWeb"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.921"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
