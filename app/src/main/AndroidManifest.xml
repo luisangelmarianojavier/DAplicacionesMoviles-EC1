@@ -35,7 +35,7 @@
             android:parentActivityName=".activities.MainActivity" />
         <activity
             android:name=".activities.MainActivity"
-            android:label="Main activity" />
+            android:label="Menú principal" />
         <activity
             android:name=".activities.DetalleMedicamentoActivity"
             android:label="Detalle de medicamento"
