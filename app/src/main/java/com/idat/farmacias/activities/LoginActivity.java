@@ -1,4 +1,4 @@
-package com.idat.farmacias;
+package com.idat.farmacias.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,9 +8,10 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.idat.farmacias.R;
 import com.idat.farmacias.databinding.ActivityLoginBinding;
 
-public class Login extends AppCompatActivity implements View.OnClickListener {
+public class LoginActivity extends AppCompatActivity implements View.OnClickListener {
 
     private ActivityLoginBinding bindig;
     private EditText et1;
@@ -35,7 +36,7 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
             Toast.makeText(this, "Digite su usuario", Toast.LENGTH_LONG).show();
         }
         else {
-            Intent i = new Intent(this, Bienvenida.class);
+            Intent i = new Intent(this, BienvenidaActivity.class);
             i.putExtra("usuario", usuario);
             startActivity(i);
         }

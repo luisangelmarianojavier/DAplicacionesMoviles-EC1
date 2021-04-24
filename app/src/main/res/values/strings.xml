@@ -1,7 +1,71 @@
 <resources>
     <string name="app_name">Farmacias</string>
-
     <string name="txtusuario">Ingrese Su Usuario</string>
     <string name="btningreso">Ingresar</string>
     <string name="lblbienvenido">Bienvenido : </string>
+    <string name="title_activity_listado_medicamentos">Listado de Medicamentos</string>
+    <string-array name="listado_medicamentos">
+        <item>Amoxicilina</item>
+        <item>Cafalexina</item>
+        <item>Clotrimazol</item>
+        <item>Fluconazol</item>
+        <item>Ibuprofeno</item>
+        <item>Loratadina</item>
+        <item>Naproxeno</item>
+        <item>Omeprazol</item>
+        <item>Paracetamol</item>
+        <item>Salbutamol</item>
+    </string-array>
+
+    <string-array name="descripcion">
+        <item>Detiene las bacterias</item>
+        <item>Trata  infecciones </item>
+        <item>Para  la tiña corporal </item>
+        <item>Para la candidiasis</item>
+        <item>Para bajar la fiebre</item>
+        <item>Bloquea a histamina</item>
+        <item>Para el dolor</item>
+        <item>Alvia el acidez estomacal</item>
+        <item>Para aliviar cualquier dolor</item>
+        <item>Para las vias respiratorias</item>
+    </string-array>
+    <string name="main_a_text2">Listado de medicamentos</string>
+    <string name="main_a_text1">Login y bienvenida</string>
+    <string name="main_a_text3">Desarrolladores</string>
+    <string name="enfermero_nombre">nombres</string>
+    <string name="enfermero_apellidos">apellidos</string>
+    <string name="listado_devs_title">Desarrolladores</string>
+    <string name="medicamento_price">Precio:</string>
+    <string name="medicamento_stock">Stock:</string>
+    <string name="filler">abc</string>
+    <string name="valQuienesSOmos">Quienes Somos</string>
+    <string name="valDescripcionQuienesSomos">Somos una farmacia dinámica, profesional, humana y vanguardista que lleva años apostando por un nuevo concepto de Farmacia más cercana y profesional, que trabaja día a día por y para los que confían en nosotros como un Centro Asesor de Salud.</string>
+    <string name="valQuienesSomos">Quienes Somos</string>
+    <string name="valDuenos">Duenos</string>
+    <string name="valContactarDueno" >Contactar al Dueño</string>
+    <string name="btnVisitarWeb" >Visitar Web</string>
+    <string name="valEnviarCorreo">Enviar Correo</string>
+
+    <string-array name="apellidos">
+        <item>Ramos Rumin</item>
+        <item>Apaza Chirhuana</item>
+        <item>Paz Vilchez</item>
+        <item>Moquillaza Cuya</item>
+        <item>Mariano Javier</item>
+    </string-array>
+
+    <string-array name="nombres">
+        <item>Luis Manuel Eugenio</item>
+        <item>Máximo Junior</item>
+        <item>Vicente Abel</item>
+        <item>Estefani Liset</item>
+        <item>Luis Angel</item>
+    </string-array>
+
+    <string-array name="duenos">
+        <item>Martha Rivaz</item>
+        <item>Vilma de la Cruz</item>
+        <item>Alvaro Esperanza</item>
+        <item>Juan Ramirez</item>
+    </string-array>
 </resources>

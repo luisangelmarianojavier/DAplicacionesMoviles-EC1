@@ -4,17 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activities.BienvenidaActivity">
+    tools:context=".activities.ListadoDevsActivity"
+    >
 
-    <TextView
-        android:id="@+id/lblbienvenida"
-        android:layout_width="331dp"
-        android:layout_height="57dp"
-        android:layout_marginTop="44dp"
-        android:text="@string/lblbienvenido"
-        android:textSize="30sp"
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/listado_enfermeros"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.312"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
